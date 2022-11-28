@@ -8,13 +8,19 @@ $casa = [ 'squadra'=>'Milano' ,'punteggio' => '55' ];
 
 $ospite = ['squadra'=>'Cantu' ,'punteggio' => '60' ];
 
-echo $casa['squadra'];
-echo ' - ';
-echo $ospite['squadra'];
-echo ' | ';
-echo $casa['punteggio'];
-echo ' - ';
-echo $ospite['punteggio'];
+echo $casa['squadra'] . ' - ' . $ospite['squadra'] . ' | ' . $casa['punteggio']. ' - '. $ospite['punteggio'];
+
+
+
+
+
+// echo $casa['squadra'];
+// echo ' - ';
+// echo $ospite['squadra'];
+// echo ' | ';
+// echo $casa['punteggio'];
+// echo ' - ';
+// echo $ospite['punteggio'];
 
 
 ?>
